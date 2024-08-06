@@ -1,6 +1,6 @@
 <style>
 .my_normal_header {
-    background: rgb(31, 116, 177);
+    background: rgba(0, 0, 0, 0);
     position: relative;
     top: 0%;
     width: 100%;
@@ -39,7 +39,7 @@
                 {{ range .Site.Menus.main }}
                 <a href="{{ .URL | safeURL }}"
                     class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8"
-                    style="font-size: 150%; color: white;">
+                    style="font-size: 150%; color: rgb(22, 121, 121);">
                     {{ .Name }}
                 </a>
                 {{ end }}

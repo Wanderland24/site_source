@@ -7,9 +7,8 @@
         background-color:rgb(72, 195, 195);
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: space-around;
-        align-items: start;
+        align-items: stretch;
     }
 
     .tips .upper {
@@ -20,6 +19,30 @@
     .tips .upper h1 {
         font-size: 60px;
         font-weight: 1000;
+    }
+
+    .tips .contact{
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .tips .contact-button {
+        padding: 8px 12px;
+        text-align: center;
+        display: inline-block;
+        font-size: 24px;
+        margin-right: 5px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border: 2px solid white;
+        border-radius: 15px;
+    }
+
+    .tips .contact-button:hover{
+        background-color: white;
+        color: rgb(72, 195, 195);
     }
 
     .image-container {
@@ -45,6 +68,10 @@
     <div class="upper">
         <h1> CRAFTING YOUR DREAM TRIPS</h1>
         <h1> INTO REALITY </h1>
+    </div>
+
+    <div class="contact">
+        <a href="/contact" class="contact-button"> CONTACT US TO KNOW MORE </a>
     </div>
     
     <div class="image-container">
