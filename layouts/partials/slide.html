@@ -1,16 +1,16 @@
 <style>
 .button {
-    padding: 16px 32px;
+    padding: 1vh 2vh;
     text-align: center;
     display: inline-block;
-    font-size: 24px;
-    margin: 50px;
+    font-size: 2.5vh;
+    margin: 5vh;
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0);
     color: white;
     border: 2px solid white;
-    border-radius: 15px;
+    border-radius: 1.5vh;
 }
 
 .button:hover {
@@ -36,7 +36,7 @@
         <div class="swiper-slide">
             <img src="{{ .image }}" alt="">
             <div class="s-fade-txt">
-                <h1 class="text-4xl {{ or .color "text-white" }}" style="font-size: 90px;">{{ .title }}</h1>
+                <h1 class="text-4xl {{ or .color "text-white" }}" style="font-size: 8vh;">{{ .title }}</h1>
                 <a href="/destination" class="button">more details</a>
             </div>
         </div>
