@@ -1,24 +1,31 @@
 <style>
     .quiz_entry {
-        height: 85vh;
+        height: 60vw;
         /* background-image: url('img/bg/ChinaMap.jpg');
         background-size:100% 100%;
         background-attachment:scroll; */
         background-color:lightcyan;
         display: flex;
-        text-align: center;
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
+        text-align: right;
+        align-items: stretch;
     }
 
     .quiz_entry h1 {
         font-size: 7vh;
         font-weight: 1000;
+        margin-right: 5vw;
     }
 
     .quiz_entry h2 {
         font-size: 4vh;
+        margin-right: 5vw;
+    }
+
+    .quiz_entry h3 {
+        font-size: 2vh;
+        margin-right: 5vw;
     }
 
     .quiz_entry button {
@@ -26,7 +33,8 @@
         text-align: center;
         display: inline-block;
         font-size: 2.5vh;
-        margin: 4vh;
+        margin-top: 4vh;
+        margin-right: 5vw;
         transition-duration: 0.4s;
         cursor: pointer;
         background-color: rgba(0, 0, 0, 0);
@@ -48,11 +56,9 @@
 </style>
 
 <div class="quiz_entry">
-    <div>
-        <h1 class="title"> WE ARE DIFFERENT IN EVERYWAYS</h1>
-        <h2> You may want to do a little quiz </h2>
-        <h3> see the highlight ... </h3>
-        <a href="/destination"> <button> start explore map </button> </a>
-        <a href="/quiz"> <button> Do a quiz to find your best destination first </button> </a>
-    </div>
+    <h1 class="title"> WE ARE DIFFERENT IN EVERYWAYS</h1>
+    <h2> You may want to do a little quiz </h2>
+    <h3> see the highlight ... </h3>
+    <a href="/destination"> <button> start explore map </button> </a>
+    <a href="/quiz"> <button> Do a quiz to find your best destination first </button> </a>
 </div>

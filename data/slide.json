@@ -1,10 +1,17 @@
 [
   {
     "title": "SHANGHAI",
-    "image": "img/slide/SH.jpg"
+    "image": "img/slide/SH.jpg",
+    "direct2": "cities/shanghai"
   },
   {
     "title": "BEIJING",
-    "image": "img/slide/BJ.jpg"
+    "image": "img/slide/BJ.jpg",
+    "direct2": "cities/beijing"
+  },
+  {
+    "title": "MORE DESTINATIONS",
+    "image": "img/slide/map.jpg",
+    "direct2": "/destination"
   }
 ]
